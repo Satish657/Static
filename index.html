@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Web Page</title>
+    <title>Static Web Page with Images</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,11 +20,13 @@
         nav {
             background-color: #f4f4f4;
             padding: 10px 20px;
+            text-align: center;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #007BFF;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
@@ -33,6 +35,13 @@
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
+            text-align: center;
+        }
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
         }
         footer {
             background-color: #333;
@@ -42,21 +51,12 @@
             margin-top: 20px;
         }
     </style>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MKSSTY2N87"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MKSSTY2N87');
-</script>
 </head>
 <body>
 
 <header>
     <h1>Welcome to My Static Web Page</h1>
-    <p>A simple static webpage example.</p>
+    <p>A simple static webpage example with images.</p>
 </header>
 
 <nav>
@@ -68,21 +68,24 @@
 <div class="container">
     <section id="home">
         <h2>Home</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJywi2ii4cGzLTet8w_7JtcoIVdNd41Cmfw1FsqtReTX70soeUqXVG-XI&s.jpg" alt="Home Image" class="responsive-img">
         <p>This is the homepage of my static web page. You can customize this section with information about your website or project.</p>
     </section>
 
     <section id="about">
         <h2>About</h2>
+        <img src="about.jpg" alt="About Us Image" class="responsive-img">
         <p>This section can be used to share information about yourself, your business, or the purpose of this webpage.</p>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
+        <img src="contact.jpg" alt="Contact Image" class="responsive-img">
         <p>Feel free to reach out! Here's how you can get in touch:</p>
-        <ul>
-            <li>Email: example@example.com</li>
-            <li>Phone: (123) 456-7890</li>
-            <li>Address: 123 Example Street, City, Country</li>
+        <ul style="list-style: none; padding: 0;">
+            <li>Email: mrxsingh466@gmail.com</li>
+            <li>Phone: (+91) 9006582320 </li>
+            <li>Address: 23  Street, City- Bihar, Country- india</li>
         </ul>
     </section>
 </div>
